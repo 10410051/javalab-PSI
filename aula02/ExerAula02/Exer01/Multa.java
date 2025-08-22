@@ -1,13 +1,13 @@
-package aula02.ExerAula02;
+package aula02.ExerAula02.Exer01;
 import java.util.Scanner;
 
 public class Multa {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.printf("Livro: \n");
+        System.out.printf("Livro: ");
         String livro = sc.nextLine();
-        System.out.printf("Dias: \n");
+        System.out.printf("\nDias: ");
         int atrasoDias = sc.nextInt();
 
         double multa = atrasoDias * 1.25;
@@ -22,6 +22,6 @@ public class Multa {
         System.out.println("por favor, regularize sua situação");
 
         sc.close();
-        
+
     }
 }
