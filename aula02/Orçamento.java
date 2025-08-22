@@ -7,7 +7,7 @@ public class Orçamento {
         System.out.println("Serviço: ");
         String servico = entrada.nextLine();
         System.out.println("Horas: ");
-        int horas = entradada.nextInt();
+        int horas = entrada.nextInt();
         System.out.println("Valor por hora: ");
         double valorHora = entrada.nextDouble();
         System.out.println("Nome do Cliente: ");
@@ -31,6 +31,7 @@ public class Orçamento {
         System.out.println("Obrigado pela preferencia!");
         System.out.println(linha);
 
+        entrada.close();
 
 
 
