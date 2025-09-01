@@ -14,18 +14,39 @@ public class Vendas {
             }
         } while (qtdeDias <= 0);
 
-        double valorVendas;
-        int totalValor = 0;
-        for (int i = 1; i <= qtdeDias; i++) {
-            System.out.printf("Valor da venda no dia: ");
-            valorVendas = sc.nextFloat();
-            totalValor += valorVendas;
+        double totalVendas = 0;
+        double maiorVenda = 0;
+        int diaMaiorVenda = 0;
 
-            if (valorVendas >= totalValor) {
-                System.out.println("");
+        for (int i = 1; i <= qtdeDias; i++) {
+            double venda;
+            do {
+                System.out.println("Valor: ");
+                venda = sc.nextDouble();
+
+                if (venda < 0) {
+                    System.out.println("Valor invalido!");
+                }
+            } while (venda < 0);
+
+            totalVendas += venda;
+
+            if (venda > maiorVenda) {
+                maiorVenda = venda;
+                diaMaiorVenda = i;
             }
+        }
+
+        double mediaVendas = totalVendas / qtdeDias;
+
+        System.out.println("\n===== RELATORIO DE VENDAS =====");
+        System.out.println("Total de vendas: R$" + totalVendas);
+        System.out.println("Media de vendas diarias: " + mediaVendas);
+        System.out.println("Maior venda foi no dia" + diaMaiorVenda + "com valor de R$" + maiorVenda);
+
+        sc.close();
             
 
-        }
+        
     }
 }
