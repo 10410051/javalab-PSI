@@ -1,4 +1,4 @@
-package aula03.Exer03;
+
 import java.util.Scanner;
 
 public class Vendas {
