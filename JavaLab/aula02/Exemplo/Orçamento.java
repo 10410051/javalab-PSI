@@ -1,4 +1,4 @@
-package aula02;
+package JavaLab.aula02.Exemplo;
 import java.util.Scanner;;
 
 public class Orçamento {

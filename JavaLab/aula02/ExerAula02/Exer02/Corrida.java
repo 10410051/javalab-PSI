@@ -1,4 +1,4 @@
-package aula02.ExerAula02.Exer02;
+package JavaLab.aula02.ExerAula02.Exer02;
 import java.util.Scanner;
 
 public class Corrida {

@@ -1,4 +1,4 @@
-
+package JavaLab.aula03.Exemplo;
 import java.util.Scanner;
 
 public class Curtidas {

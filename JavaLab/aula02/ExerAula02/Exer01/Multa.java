@@ -1,4 +1,4 @@
-package aula02.ExerAula02.Exer01;
+package JavaLab.aula02.ExerAula02.Exer01;
 import java.util.Scanner;
 
 public class Multa {
