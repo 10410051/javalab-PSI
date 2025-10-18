@@ -9,5 +9,6 @@ public class Main {
         boolean estaPerto = c.estaContido(p2);
         System.out.printf("Esta perto: %b\n", estaPerto);
         System.out.printf("Distancia: %.2f\n", distancia);
+        
     }
 }
