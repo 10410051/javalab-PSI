@@ -1,4 +1,4 @@
-package Atividades;
+package Atividades.Metodos;
 
 public class Atendimento {
     private int quantidade;

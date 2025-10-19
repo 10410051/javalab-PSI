@@ -1,4 +1,5 @@
-package Atividades;
+package Atividades.App;
+import Atividades.Metodos.*;
 
 public class ClinicaApp {
     public static void main(String[] args) {

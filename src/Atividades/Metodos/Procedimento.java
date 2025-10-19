@@ -1,4 +1,4 @@
-package Atividades;
+package Atividades.Metodos;
 
 public class Procedimento {
     private String nome;
