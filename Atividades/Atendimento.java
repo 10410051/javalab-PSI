@@ -1,25 +1,20 @@
 package Atividades;
 
-import java.util.ArrayList;
-
 public class Atendimento {
     private int quantidade;
-    private Procedimento p;
-    private Procedimento tempo;
+    private Procedimento procedimento;
 
     public Atendimento(Procedimento p, int qtd) {
-        this.p = p;
+        this.procedimento = p;
         this.quantidade = qtd;
     }
 
-    public int calculaTempo(Procedimento t) {
-        this.tempo = t;
-
-
-
-        return t;
+    public int calculaTempo() {
+        return procedimento.getDuracaoMinutos() * quantidade;
     }
 
-    
+    public double calculaCusto() {
+        return procedimento.getPrecoPorSessao() * quantidade;
+    }
     
 }
