@@ -10,7 +10,8 @@ public class Contribuinte {
     }
 
     public double calculaImposto() {
-        return
+        return 0;
+
     }
 
     public String geNome() {

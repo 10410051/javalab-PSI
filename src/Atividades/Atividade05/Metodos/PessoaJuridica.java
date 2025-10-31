@@ -8,7 +8,10 @@ public class PessoaJuridica extends Contribuinte{
 
     @Override
     public double calculaImposto() {
-        
+        double renda = getRenda();
+        double imposto = renda * 0.1;
+
+        return imposto;
     }
     
 }

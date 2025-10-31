@@ -8,7 +8,15 @@ public class PessoaFisica extends Contribuinte{
 
     @Override
     public double calculaImposto() {
+        double renda = getRenda();
+        double imposto;
+
+        if (renda <= 1500.00) {
+
+        }
         
+
+        return imposto;
     }
     
 }
